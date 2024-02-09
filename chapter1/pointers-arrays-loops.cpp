@@ -13,8 +13,9 @@ void copy(){
     int v1[10] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}; // Criando um vetor chamadao v1 com dez elementos [10]
     int v2[10]; // Criando outro vetor do mesmo tamanho.
 
-    int* p = &v1[3]; // P aponta para o quarto elemento de v1.
+    int* p = &v1[3]; // P (pointer do tipo integer) aponta para o endereço de v1[3] ou quarto elemento de v1.
     int x = *p; // X é o elemento em que o P está apontando.
+
 
     cout << "O valor em memória para p é: " << p << " e o elemento que está sendo apontado é: " << x << endl;
     
@@ -40,4 +41,3 @@ int main(){
     copy();
 }
 
-// Continuar estudando os conceitos abordados em: https://www.youtube.com/watch?v=ASVB8KAFypk
